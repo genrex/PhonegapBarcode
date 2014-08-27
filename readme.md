@@ -1,10 +1,34 @@
-Barcode Example
-===
+Created a small app last night to read barcodes.
 
-This is a simple example of the barcode plugin. To use, add the plugin https://github.com/wildabeast/BarcodeScanner.git via the command line. 
-
-    cordova plugins add https://github.com/wildabeast/BarcodeScanner.git
-  
-When the application launches, it presents one button. Clicking the button fires the barecode's scan feature. Point the camera at a barcode or a QR code and it will pick up the data and write out the results to the page.
  
-The plugin's documentation may be found here: https://github.com/wildabeast/BarcodeScanner
+
+Nothing fancy. Just a button to invoke the barcode reader camera and then returns the barcode number along with the barcode standard.
+
+ 
+
+You can get it here:
+
+https://build.phonegap.com/apps/1065666/install/?qr_key=UPYa4xMs3xX3aDY_9bfn
+
+ 
+
+Checked on iPhone 5S and Android Kit Kat.
+
+ 
+
+I am only using an html file and a js file along with the config.xml.
+
+ 
+
+You can get the code from my github repository. You can remove the resource files from config.xml. I just got it from the base template.
+
+ https://github.com/genrex/PhonegapBarcode
+
+ 
+
+Instructions:
+
+ 
+
+To add the plugin , in Config.xml you need to have:
+<gap:plugin name=”com.phonegap.plugins.barcodescanner”/>
