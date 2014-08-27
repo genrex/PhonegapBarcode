@@ -3,14 +3,14 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.ryanw.barcodedemo"
         version   = "2.0.0">
-    <name>Scanner Demo</name>
+    <name>Umer Phonegap Barcode</name>
 
     <description>
-        Scans barcodes.
+        Example of barcode scanning using phonegap - Umer Pasha
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://www.umerpasha.com" email="mail@umerpasha.com">
+        Umer Pasha
     </author>
 
     <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
