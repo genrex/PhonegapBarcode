@@ -1,3 +1,7 @@
+// Phonegap Barcode scanner
+// Author: Umer Pasha
+// Date: 8/26/14
+
 var resultDiv;
 
 document.addEventListener("deviceready", init, false);
